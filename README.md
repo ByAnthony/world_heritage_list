@@ -32,4 +32,3 @@ Pre-requisites and usage:
 ```
 open index.html
 ```
-- Navigate to the page in your browser.
