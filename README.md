@@ -26,7 +26,7 @@ The project was created with:
 - Javascript;
 - HTML/CSS.
 
-## SetUp
+## Setup
 Pre-requisites and usage:
 - Clone/download the project and navigate to that directory in your terminal client:
 ```
