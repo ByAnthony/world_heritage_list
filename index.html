@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World Heritage List</title>
+  <script src="js/app.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <style>@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');</style>
+</head>
+<body>
+  <div id="grid-container">
+    <header></header>
+    <div id="menu">
+      <form id="unesco-form">
+        <div class="unesco-item">
+          <p><label for="site" class="primary">Site</label></p>
+          <p><input type="text" id="site" required/></p>
+        </div>
+        <div class="unesco-item">
+          <p><label for="country" class="primary">Country</label></p>
+          <p><input type="text" id="country" required/></p>
+        </div>
+        <div class="unesco-item">
+          <p><label for="continent" class="primary">Continent</label></p>
+          <select id="continent">
+            <option value="" disabled selected></option>
+            <option value="Africa">Africa</option>
+            <option value="Antarctica">Antarctica</option>
+            <option value="Asia">Asia</option>
+            <option value="Australia">Australia</option>
+            <option value="Europe">Europe</option>
+            <option value="North America">North America</option>
+            <option value="South America">South America</option>
+          </select>
+        </div>
+        <div class="unesco-category">
+          <h5>Listing Status</h5>
+            <p><input type="radio" id="category1" name="category" value="Cultural Heritage" required>
+            <label for="category1">Cultural Heritage</label></p>
+            <p><input type="radio" id="category2" name="category" value="Natural Heritage" required>
+            <label for="category2">Natural Heritage</label></p>
+            <p><input type="radio" id="category3" name="category" value="Mixed Status" required>
+            <label for="category3">Mixed Status</label></p>
+        </div>
+        <button type="submit" value="save">Save</button>
+      </form>
+      <button id="delete-all">Delete All</button>
+    </div>
+    <div id="main-content">
+      <h1>World<br>Heritage<br>List</h1>
+      <ul id="unesco-list"></ul>
+    </div>
+    <footer></footer>
+  </div>
+</body>
+</html>
