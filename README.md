@@ -10,21 +10,21 @@ Create a front-end JavaScript application that allows users to input items and s
 * [Setup](#setup)
 
 ## Brief
-- Create a form in HTML with inputs for relevant data.
-- When the form is submitted, access the data from the form in the form's submit event object.
-- Create a list in HTML.
-- Append the submitted data to the list.
+- Create a form in HTML with inputs for relevant data;
+- When the form is submitted, access the data from the form in the form's submit event object;
+- Create a list in HTML;
+- Append the submitted data to the list;
 - Add a "Delete All" <button> which clears all of the list items from the list.
 
 ### Extensions:
-- Refactor your code, extracting helper functions with single responsibilites to keep each function small and readable.
-- Experiment with adding a new form input and experimenting with a new <input> type eg. Add a radio button input.
+- Refactor your code, extracting helper functions with single responsibilites to keep each function small and readable;
+- Experiment with adding a new form input and experimenting with a new <input> type eg. Add a radio button input;
 - Style your application with CSS.
 
 ## Technologies
 The project was created with:
-- Javascript
-- HTML/CSS
+- Javascript;
+- HTML/CSS.
 
 ## SetUp
 Pre-requisites and usage:
@@ -32,4 +32,4 @@ Pre-requisites and usage:
 ```
 open index.html
 ```
-- Navigate to the page in your browser
+- Navigate to the page in your browser.
