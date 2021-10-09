@@ -1,8 +1,8 @@
 # World Heritage List
 
-create a front-end JavaScript application that allows users to input items and see them displayed in a list. This was built during the week 6 of the CodeClan Software Developer.
+Create a front-end JavaScript application that allows users to input items and see them displayed in a list. This was built during the week 6 of the CodeClan Software Developer.
 
-![](https://github.com/ByAnthony/world_heritage_list/blob/main/images/Screenshot%202021-10-09%20at%2014.59.08.png?raw=true)
+![](https://github.com/ByAnthony/world_heritage_list/blob/main/images/Screenshot%202021-10-09%20at%2015.07.38.png?raw=true)
 
 ## Contents
 * [Brief](#brief)
@@ -32,4 +32,4 @@ Pre-requisites and usage:
 ```
 open index.html
 ```
-Navigate to the page in your browser
+- Navigate to the page in your browser
